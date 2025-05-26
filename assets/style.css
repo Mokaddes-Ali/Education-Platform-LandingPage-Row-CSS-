@@ -8,7 +8,6 @@ body {
 .container {
   margin: 0 auto;
   width: 1170px;
-  padding-left: 7px;
   /* background-color: aquamarine; */
 }
 
@@ -23,7 +22,7 @@ body {
 }
 
 .nav-content {
-  padding-top: 43px;
+  padding-top: 32px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -35,7 +34,7 @@ body {
 }
 
 .navlink ul {
-  margin-left: 404px;
+  margin-left: 400px;
   display: flex;
   list-style: none;
   gap: 42px;
