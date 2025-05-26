@@ -1012,8 +1012,8 @@ p {
 }
 
 .footer-logo-section {
-  padding-top: 76px;
-  padding-left: 4px;
+  padding-top: 97px;
+  padding-left: 0px;
 }
 
 .footer-logo-section p {
@@ -1034,8 +1034,8 @@ p {
 }
 
 .footer-body-information {
-  padding-left: 60px;
-  padding-top: 67px;
+  padding-left: 63px;
+  padding-top: 89px;
   display: flex;
   gap: 135px;
 
@@ -1095,7 +1095,7 @@ p {
 }
 
 .company-address {
-  margin-left: -14px;
+  margin-left: -19px;
   width: 231px;
 
 }
@@ -1109,6 +1109,7 @@ p {
 }
 
 .company-address p {
+  margin-top: -2px;
   color: #BFBCB2;
   font-size: 14px;
   font-style: normal;
@@ -1121,11 +1122,12 @@ p {
   height: 1px;
   background-color: #59554B;
   margin-left: 138px;
+  margin-top: 18px;
 }
 
 .footer-copy-right{
-   margin-top: 26px;
-   margin-left: 545px;
+   margin-top: 29px;
+   margin-left: 541px;
     color: #807D74;
   text-align: left;
   font-family: Poppins;
