@@ -20,9 +20,8 @@
 
 <body>
 
-
   <!-- Start Header And Hero Section -->
-  <section class="">
+  <section class="header-hero-section">
     <header class="header">
       <div class="container">
         <div class="nav-content">
@@ -92,32 +91,36 @@
 
           </div>
           <div class="hero-right-button">
-            <button class="see-course">See Courses</button>
-            <button class="watch-vedio-button">
-              <span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" fill="none">
-                  <g filter="url(#filter0_d_28_41)">
-                    <circle cx="36" cy="28" r="20" fill="white" />
-                  </g>
-                  <path d="M41.9861 28L32.9741 33.1753L32.9982 22.783L41.9861 28Z" fill="#FFB900" />
-                  <defs>
-                    <filter id="filter0_d_28_41" x="0" y="0" width="72" height="72" filterUnits="userSpaceOnUse"
-                      color-interpolation-filters="sRGB">
-                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                        result="hardAlpha" />
-                      <feOffset dy="8" />
-                      <feGaussianBlur stdDeviation="8" />
-                      <feComposite in2="hardAlpha" operator="out" />
-                      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.07 0" />
-                      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_28_41" />
-                      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_28_41" result="shape" />
-                    </filter>
-                  </defs>
-                </svg>
-              </span>
-              <p> Watch Video</p>
-            </button>
+            <div class="">
+            <button class="hero-see-course">See Courses</button>
+            </div>
+           <div>
+    <button class="watch-vedio-button">
+      <span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72" fill="none">
+          <g filter="url(#filter0_d_28_41)">
+            <circle cx="36" cy="28" r="20" fill="white" />
+          </g>
+          <path d="M41.9861 28L32.9741 33.1753L32.9982 22.783L41.9861 28Z" fill="#FFB900" />
+          <defs>
+            <filter id="filter0_d_28_41" x="0" y="0" width="72" height="72" filterUnits="userSpaceOnUse"
+              color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feColorMatrix in="SourceAlpha" type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+              <feOffset dy="8" />
+              <feGaussianBlur stdDeviation="8" />
+              <feComposite in2="hardAlpha" operator="out" />
+              <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.07 0" />
+              <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_28_41" />
+              <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_28_41" result="shape" />
+            </filter>
+          </defs>
+        </svg>
+      </span>
+      <p>Watch Video</p>
+    </button>
+  </div>
           </div>
 
           <div class="hero-text-data">
@@ -245,6 +248,7 @@
 
   <!-- End Courses Section -->
 
+
   <!-- Start Testimonial Section -->
   <section class="testimonial">
     <div class="container">
@@ -310,13 +314,12 @@
   <!-- Start CTA Section -->
   <section class="cta-section">
     <div class="container">
-
       <!-- CTA Left -->
       <div class="cta-left">
         <h1>Take the next step toward your personal and professional goals with Lesson.</h1>
         <p>Take the next step toward. Join now to receive
           personalized and more recommendations from the full Coursera catalog.</p>
-        <div class="button">
+        <div class="cta-button">
           <button>Join Now</button>
         </div>
 
@@ -338,7 +341,6 @@
   <!-- start Blog Section -->
   <section class="blog-section">
     <div class="container">
-
       <div class="blog-heading">
         <h1 class="">Our blog</h1>
         <p>Read our regular travel blog and know the latest update of tour and travel</p>
@@ -420,9 +422,11 @@
 
   <!-- Start Footer Section -->
 
+
+    <!-- Start Footer Section -->
+
   <footer class="footer">
     <div class="container">
-
       <!-- logo and social icon -->
       <div class="footer-logo-section">
         <div class="footer-logo">
@@ -458,6 +462,7 @@
         </div>
       </div>
 
+    <div class="footer-body-information">
       <!-- Company Quick Link -->
       <div class="quick-link">
         <h1 class="">Company</h1>
@@ -487,7 +492,7 @@
         <h1 class="">Address</h1>
         <div class="divider"></div>
         <ul>
-          <li class="">
+          <li class="company-loaction">
             <p><span class="contact-title">Location:</span> 27 Division St, New York, NY 10002, USA</p>
           </li>
           <li class="">
@@ -498,31 +503,14 @@
           </li>
         </ul>
       </div>
-      <!-- Footer Divider and Copy Right Text -->
-      <div class="footer-divider"></div>
-      <div class="copy-right-text">
-        <p>Copyright ©2022 webdesign.gdn All rights reserved</p>
       </div>
-
     </div>
+
+      <!-- Footer Divider and Copy Right Text -->
+             <div class="footer-divider"></div>
+        <p class="footer-copy-right">Copyright ©2022 webdesign.gdn All rights reserved</p>
   </footer>
-
   <!-- End Footer Section -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </body>
 

@@ -2,21 +2,28 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
-  background-color: #FFFFFF;
-  width: 1440px;
+
 }
 
 .container {
   margin: 0 auto;
   width: 1170px;
+  padding-left: 7px;
   /* background-color: aquamarine; */
 }
 
 
 /* Start Header and Hero CSS */
+.header-hero-section {
+  width: 1440px;
+}
+
+.header {
+  width: 1440px;
+}
 
 .nav-content {
-  padding-top: 33px;
+  padding-top: 43px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -28,7 +35,7 @@ body {
 }
 
 .navlink ul {
-  margin-left: 400px;
+  margin-left: 404px;
   display: flex;
   list-style: none;
   gap: 42px;
@@ -100,19 +107,19 @@ body {
 
 
 .hero {
+  width: 1440px;
   padding-top: 58px;
   padding-bottom: 65px;
 }
 
 .hero .container {
   display: flex;
-  justify-content: space-between;
   gap: 230px;
 }
 
 .hero-left {
   position: relative;
-  display: inline-block;
+
 }
 
 .hero-left img {
@@ -124,10 +131,10 @@ body {
 }
 
 .hero-card {
+  transform: translateY(-50%);
   position: absolute;
   top: 513px;
   left: 300px;
-  transform: translateY(-50%);
   width: 270px;
   height: 244px;
   flex-shrink: 0;
@@ -266,6 +273,7 @@ body {
 }
 
 .hero-right-text p {
+  width: 470px;
   margin-top: 20px;
   color: #5F5B53;
   font-family: Poppins;
@@ -277,15 +285,17 @@ body {
 }
 
 .hero-right-button {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  column-gap: 10px;
   align-items: center;
-  gap: 20px;
 }
 
-.see-course {
-  margin-top: 10px;
+.hero-see-course {
   width: 180px;
   height: 64px;
+  flex-shrink: 0;
+  margin-top: 10px;
   border-radius: 32px;
   background: #FFB900;
   border: none;
@@ -300,28 +310,29 @@ body {
   justify-content: center;
 }
 
+
 .watch-vedio-button {
-  margin-left: -15px;
-  margin-top: 18px;
-  display: flex;
-  align-items: flex-start;
-  gap: -15px;
+  margin-top: 25px;
   background: none;
   border: none;
+  display: flex;
+  align-items: center;
+  gap: 0;
+  padding: 0;
 }
 
 .watch-vedio-button p {
-  padding-top: 0px;
   color: #171100;
   font-family: Poppins;
   font-size: 18px;
   font-weight: 600;
   line-height: 30px;
   cursor: pointer;
+  margin-left: -168px;
+  margin-top: -0px;
 }
 
 .watch-vedio-button svg {
-  padding-top: 5px;
   width: 70px;
   height: 70px;
 }
@@ -362,12 +373,14 @@ body {
   gap: 30px;
 
 }
+
 /* End Header and Hero CSS */
 
 
 /* Start Courses CSS */
 
-.courses-section {
+.courses {
+  width: 1440px;
   padding: 200px 0px;
   height: 645px;
 }
@@ -384,7 +397,6 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 48px;
-  /* 126.316% */
   letter-spacing: -0.76px;
   margin-bottom: -10px;
   margin-top: 0px;
@@ -400,7 +412,8 @@ body {
   line-height: 30px;
 
 }
-.courses{
+
+.courses {
   padding: 192px 0px;
   height: 645px;
 }
@@ -409,37 +422,40 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 608px;
-  
+
 }
 
-.courses-heading h1{
+.courses-heading h1 {
   color: #171100;
   font-family: 'Sen', sans-serif;
-font-size: 38px;
-font-style: normal;
-font-weight: 700;
-line-height: 48px;
-letter-spacing: -0.76px;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.76px;
 }
-.courses-heading p{
+
+.courses-heading p {
   padding-top: 7px;
   width: 458px;
   color: #5F5B53;
-font-family: Poppins;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
 
 }
 
-.courses-button{
+.courses-button {
   padding-top: 40px;
 }
-.courses-button button{
+
+.courses-button button {
   border: none;
   background: none;
 }
+
 .courses-list-card {
   padding-top: 38px;
 }
@@ -528,11 +544,12 @@ line-height: 30px;
   cursor: pointer;
 }
 
-.courses-card-list{
+.courses-card-list {
   padding-top: 40px;
   display: flex;
   gap: 30px;
 }
+
 .course-card {
   width: 370px;
   height: 466px;
@@ -585,7 +602,7 @@ line-height: 30px;
   font-family: Poppins;
   font-weight: 400;
   line-height: 26px;
-   padding-left: 22px;
+  padding-left: 22px;
   padding-right: 22px;
   padding-top: 6px;
   margin: 0;
@@ -594,7 +611,7 @@ line-height: 30px;
 .course-footer {
   display: flex;
   justify-content: space-between;
-   padding-left: 22px;
+  padding-left: 22px;
   padding-right: 22px;
   padding-top: 12px;
   align-items: center;
@@ -623,7 +640,7 @@ line-height: 30px;
   cursor: pointer;
 }
 
-.book-button:hover{
+.book-button:hover {
   background: #FFB900;
 }
 
@@ -633,9 +650,11 @@ line-height: 30px;
 
 /* Start Testimonial CSS */
 .testimonial {
+  width: 1440px;
   background: #2E2100;
   height: 380px;
-  margin-top: 10px;
+  margin-top: 9px;
+  padding-left: 4px;
 }
 
 .testimonial .container {
@@ -698,74 +717,81 @@ line-height: 30px;
 
 
 /* Start feature CSS */
-.feature-section{
+.feature-section {
+  width: 1440px;
   /* // */
 }
-.feature-section .container{
+
+.feature-section .container {
   padding-top: 200px;
   padding-bottom: 200px;
 }
 
-.feature-main-row{
+.feature-main-row {
   display: flex;
   gap: 700px;
 }
 
-.feature-left{
+.feature-left {
   position: relative;
   display: flex;
 }
-.feature-left .feature-image1{
+
+.feature-left .feature-image1 {
   position: absolute;
   top: 32px;
 
 }
 
-.feature-left .feature-image2{
+.feature-left .feature-image2 {
   position: absolute;
   top: 0px;
   left: 300px;
 }
-.feature-right{
+
+.feature-right {
   margin-top: 23px;
 }
-.feature-right h1{
+
+.feature-right h1 {
   margin-bottom: -0px;
   width: 470px;
   color: #171100;
-font-family: 'Sen', sans-serif;
-font-size: 38px;
-font-style: normal;
-font-weight: 700;
-line-height: 48px;
-letter-spacing: -0.76px;
-}
-.feature-right h2,p{
-  margin-top: 17px;
-  width: 458px;
-color: #5F5B53;
-font-family: Poppins;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px;
+  font-family: 'Sen', sans-serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.76px;
 }
 
-.feature-button button{
+.feature-right h2,
+p {
+  margin-top: 17px;
+  width: 458px;
+  color: #5F5B53;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.feature-button button {
   margin-top: 15px;
   width: 137px;
-height: 50px;
-flex-shrink: 0;
-border-radius: 26px;
-background: #FFB900;
-color: #FFF;
-text-align: center;
-font-family: Poppins;
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-line-height: 28px;
-border: none;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 26px;
+  background: #FFB900;
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  border: none;
 }
 
 /* End feature CSS */
@@ -774,7 +800,9 @@ border: none;
 
 /* Start CTA section CSS */
 .cta-section {
+  width: 1440px;
   padding-top: 63px;
+  padding-bottom: 195px;
 }
 
 .cta-section .container {
@@ -792,7 +820,7 @@ border: none;
 
 .cta-left h1 {
   position: absolute;
-  top: -120px;
+  top: -185px;
   color: #171100;
   font-family: 'Sen', sans-serif;
   font-size: 38px;
@@ -804,15 +832,33 @@ border: none;
 
 .cta-left p {
   position: absolute;
-  top: 20px;
+  top: -20px;
   width: 570px;
   padding-top: 10px;
   color: #5F5B53;
-font-family: Poppins;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.cta-button button {
+  position: absolute;
+  top: 95px;
+  width: 137px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 26px;
+  border: none;
+  background: #FFB900;
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
 }
 
 /* End CTA CSS */
@@ -820,8 +866,7 @@ line-height: 28px;
 
 /* Start Blog Section CSS */
 .blog-section {
-  max-width: 1440px;
-  width: 100%;
+  width: 1440px;
   height: 878px;
   background-color: #FFFCF4;
 
@@ -878,16 +923,18 @@ line-height: 28px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
 
+.card-body {
+  height: 210px;
+}
+
 .card-image img {
   width: 370px;
   height: 250px;
 }
 
-.card-body {
-  padding: 0px 20px;
-}
-
 .card-body p {
+  margin-left: 20px;
+  margin-top: 13px;
   color: #5F5B53;
   font-size: 14px;
   font-style: normal;
@@ -903,6 +950,8 @@ line-height: 28px;
 }
 
 .card-body .card-divider {
+  margin-left: 20px;
+  margin-top: 13px;
   border-radius: 0.5px;
   background: #E2DFDA;
   width: 160px;
@@ -910,6 +959,9 @@ line-height: 28px;
 }
 
 .card-body h1 {
+  margin-left: 20px;
+  margin-top: 13px;
+  width: 330px;
   color: #171100;
   font-family: Poppins;
   font-size: 16px;
@@ -919,6 +971,8 @@ line-height: 28px;
 }
 
 .card-button button {
+  margin-left: 20px;
+  margin-top: -3px;
   width: 118px;
   height: 50px;
   flex-shrink: 0;
@@ -944,19 +998,29 @@ line-height: 28px;
 /* End Blog Section CSS */
 
 /* Footer CSS Start */
+
 .footer {
   background-color: #2E2100;
+  height: 470px;
   width: 1440px;
-  height: 428px;
-  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.footer .container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 60px;
+  padding: 20px;
 }
 
 .footer-logo-section {
-  position: absolute;
-  top: 95px
+  padding-top: 76px;
+  padding-left: 4px;
 }
 
 .footer-logo-section p {
+  margin-top: 14px;
   color: #BFBCB2;
   font-size: 14px;
   font-style: normal;
@@ -965,25 +1029,30 @@ line-height: 28px;
   width: 267px;
 }
 
-.divider {
+.company-address .divider, .company-support .divider, .quick-link .divider{
   width: 130px;
   height: 1px;
   background-color: #59554B;
-  position: absolute;
-  top: 53px;
+ margin-left: 0px;
+}
+
+.footer-body-information {
+  padding-left: 60px;
+  padding-top: 67px;
+  display: flex;
+  gap: 135px;
+
 }
 
 .quick-link {
-  position: absolute;
-  top: 85px;
-  left: 548px;
-
+  width: 100px;
+  margin-left: 22px;
 }
 
 .quick-link h1,
 .company-support h1,
 .company-address h1 {
-  color: #FFF;
+  color: #FFFFFF;
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
@@ -992,10 +1061,9 @@ line-height: 28px;
 }
 
 .company-support {
-  position: absolute;
-  top: 85px;
-  left: 806px;
-
+  width: 150px;
+ margin-left: 26px;
+  
 }
 
 .company-support ul,
@@ -1003,13 +1071,13 @@ line-height: 28px;
 .company-address ul {
   list-style: none;
   padding: 0;
-  margin-top: 40px;
+  margin-top: 31px;
 }
 
 .company-support li,
 .quick-link li {
   margin-bottom: 13px;
-  margin-top: 5px;
+  margin-top: 0px;
 }
 
 .company-support a,
@@ -1024,11 +1092,14 @@ line-height: 28px;
   transition: color 0.3s ease;
 }
 
-.company-address {
+.company-loaction p {
   width: 231px;
-  position: absolute;
-  top: 85px;
-  left: 1075px;
+
+}
+
+.company-address {
+  margin-left: -14px;
+  width: 231px;
 
 }
 
@@ -1052,27 +1123,20 @@ line-height: 28px;
   width: 1170px;
   height: 1px;
   background-color: #59554B;
-  position: absolute;
-  top: 345px;
+  margin-left: 138px;
 }
 
-.copy-right-text {
-  display: flex;
-  align-items: center;
-  justify-items: center;
-  position: absolute;
-  top: 361px;
-  left: 542px;
-}
-
-.copy-right-text p {
-  color: #807D74;
-  text-align: center;
+.footer-copy-right{
+   margin-top: 26px;
+   margin-left: 545px;
+    color: #807D74;
+  text-align: left;
   font-family: Poppins;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
+
 }
 
 /* End Footer CSS */
