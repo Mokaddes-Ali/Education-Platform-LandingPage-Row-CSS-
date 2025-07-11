@@ -3,12 +3,12 @@
           <div class="feature-main-row">
               <!-- Feature Left Image -->
               <div class="feature-left">
-                  <img class="feature-image1" src="assets/images/feature1.png" alt="Feature Image" />
-                  <img class="feature-image2" src="assets/images/feature2.png" alt="Feature Image" />
+                  <img class="feature-image1" src="assets/images/feature1.png" alt="Feature Image"  data-aos="fade-up"/>
+                  <img class="feature-image2" src="assets/images/feature2.png" alt="Feature Image" data-aos="fade-down"/>
               </div>
 
               <!-- Feature Right text and image -->
-              <div class="feature-right">
+              <div class="feature-right" data-aos="zoom-out-down">
                   <h1>Learner outcomes through our awesome platform</h1>
                   <h2>87% of people learning for professional development report
                       career benefits like getting a promotion, a raise, or starting a
