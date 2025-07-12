@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $(document).ready(function () {
 
   $(".mobile-nav .open-icon").click(function () {
@@ -72,6 +73,33 @@ $(document).ready(function () {
   });
 
 
+=======
+ $(document).ready(function(){
+
+  $(".mobile-nav .open-icon").click(function(){
+                $(".site-nav-menu").addClass("mobile-menu");
+                $(".open-icon").hide();
+                $(".close-icon").show();
+            });
+
+            $(".mobile-nav .close-icon").click(function(){
+                $(".site-nav-menu").removeClass("mobile-menu");
+                $(".close-icon").hide();
+                  $(".open-icon").show();
+
+            })
+
+
+            
+  $('#testimonial-slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    arrows: false,
+  });
+
+>>>>>>> e3b87450fa8b20a0e3a048945e439d4aedebe2e4
   let $slider = $(".slider");
 
   $slider.slick({
@@ -98,6 +126,7 @@ $(document).ready(function () {
     ]
   });
 
+<<<<<<< HEAD
 
 
   function updateArrowColor() {
@@ -122,12 +151,37 @@ $(document).ready(function () {
       $next.css('background', '').attr('disabled', false);
     }
   }
+=======
+  function updateArrowColor(){
+  const $prev = $('.prev-btn');
+  const $next = $('.next-btn');
+
+  const currentSlide = $slider.slick('slickCurrentSlide');
+  const slideCount = $slider.slick('getSlick').slideCount;
+  const slidesToShow = $slider.slick('slickGetOption', 'slidesToShow');
+
+  if (currentSlide === 0) {
+    // First slide - disable prev
+    $prev.css('background', '#ccc').attr('disabled', true);
+    $next.css('background', '#FFB900').attr('disabled', false);
+  } else if (currentSlide >= slideCount - slidesToShow) {
+    // Last slide - disable next
+    $next.css('background', '#ccc').attr('disabled', true);
+    $prev.css('background', '#FFB900').attr('disabled', false);
+  } else {
+    // Middle slides - enable both
+    $prev.css('background', '#FFB900').attr('disabled', false);
+    $next.css('background', '#FFB900').attr('disabled', false);
+  }
+}
+>>>>>>> e3b87450fa8b20a0e3a048945e439d4aedebe2e4
 
 
   $slider.on('afterChange', updateArrowColor);
   updateArrowColor();
 });
 
+<<<<<<< HEAD
 
 AOS.init({
   duration: 1200,
@@ -135,3 +189,12 @@ AOS.init({
   mirror: true,
   offset: 100,
 });
+=======
+  
+      AOS.init({
+        duration: 1200,
+        once: false,
+        mirror: true,
+        offset: 100,
+      });
+>>>>>>> e3b87450fa8b20a0e3a048945e439d4aedebe2e4

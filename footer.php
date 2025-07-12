@@ -1,7 +1,11 @@
 <footer class="footer">
     <div class="container">
         <!-- logo and social icon -->
+<<<<<<< HEAD
         <div class="footer-logo-section" data-aos="fade-down">
+=======
+        <div class="footer-logo-section" data-aos="zoom-in-right">
+>>>>>>> e3b87450fa8b20a0e3a048945e439d4aedebe2e4
             <div class="footer-logo">
                 <img class src="/assets/images/footer-logo.png" alt="company logo" />
             </div>
@@ -39,8 +43,13 @@
         <div class="footer-body-information">
             <!-- Company Quick Link -->
             <div class="quick-link">
+<<<<<<< HEAD
                 <h1 data-aos="fade-down">Company</h1>
                 <div class="divider" data-aos="zoom-in"></div>
+=======
+                <h1 class="" data-aos="zoom-in">Company</h1>
+                <div class="divider" data-aos="flip-right"></div>
+>>>>>>> e3b87450fa8b20a0e3a048945e439d4aedebe2e4
                 <ul data-aos="zoom-out">
                     <li class><a href="#">About Us</a></li>
                     <li class><a href="#">Features</a></li>
@@ -51,8 +60,13 @@
 
             <!-- Support -->
             <div class="company-support">
+<<<<<<< HEAD
                 <h1 data-aos="fade-down">Support</h1>
                 <div class="divider" data-aos="zoom-in"></div>
+=======
+                <h1 class="" data-aos="zoom-in">Support</h1>
+                <div class="divider" data-aos="flip-right"></div>
+>>>>>>> e3b87450fa8b20a0e3a048945e439d4aedebe2e4
                 <ul data-aos="zoom-out">
                     <li class><a href="#">FAQ’s</a></li>
                     <li class><a href="#">Terms & Conditions</a></li>
@@ -63,8 +77,13 @@
 
             <!-- Address -->
             <div class="company-address">
+<<<<<<< HEAD
                 <h1 data-aos="fade-down">Address</h1>
                 <div class="divider" data-aos="zoom-in"></div>
+=======
+                <h1 class="" data-aos="zoom-in">Address</h1>
+                <div class="divider" data-aos="flip-right"></div>
+>>>>>>> e3b87450fa8b20a0e3a048945e439d4aedebe2e4
                 <ul data-aos="zoom-out">
                     <li class="company-loaction">
                         <p><span class="contact-title">Location:</span> 27 Division St,
@@ -83,9 +102,19 @@
     </div>
 
     <!-- Footer Divider and Copy Right Text -->
+<<<<<<< HEAD
      <div class="" data-aos="zoom-in-down">
+=======
+     <div class="" data-aos="flip-right">
+>>>>>>> e3b87450fa8b20a0e3a048945e439d4aedebe2e4
     <div class="footer-divider"></div>
-    <p class="footer-copy-right">Copyright ©2022 webdesign.gdn All rights
+    <p class="footer-copy-right"
+     data-aos-easing="linear"
+     data-aos-duration="500">Copyright ©2022 webdesign.gdn All rights
         reserved</p>
+<<<<<<< HEAD
     </div>
+=======
+        </div>
+>>>>>>> e3b87450fa8b20a0e3a048945e439d4aedebe2e4
 </footer>

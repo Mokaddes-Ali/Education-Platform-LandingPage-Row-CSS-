@@ -3,9 +3,17 @@
     <div class="hero">
         <div class="container">
             <!-- hero left image and card -->
+<<<<<<< HEAD
             <div class="hero-left" data-aos="fade-up">
                 <img src="assets/images/heor-img.png" />
                 <div class="hero-card" data-aos="flip-left">
+=======
+            <div class="hero-left">
+                <div class="hero-img" data-aos="fade-up">
+                     <img src="assets/images/heor-img.png" />
+                </div>
+                <div class="hero-card" data-aos="zoom-in-down">
+>>>>>>> e3b87450fa8b20a0e3a048945e439d4aedebe2e4
                     <div class="first-row">
                         <img class="hero-card-img" src="assets/images/hero-card1.png" alt="crad icon" />
                         <p>20 Courses</p>
@@ -29,8 +37,13 @@
             </div>
 
             <!-- Hero right text and button with data display -->
+<<<<<<< HEAD
             <div class="hero-right" data-aos="zoom-in">
                 <div class="hero-right-text">
+=======
+            <div class="hero-right">
+                <div class="hero-right-text" data-aos="zoom-in">
+>>>>>>> e3b87450fa8b20a0e3a048945e439d4aedebe2e4
                     <h1>Learn without limits and spread knowledge.</h1>
                     <p>Build new skills for that “this is my year” feeling with
                         courses,
@@ -38,7 +51,11 @@
                         companies.</p>
 
                 </div>
+<<<<<<< HEAD
                 <div class="hero-right-button" data-aos="fade-down">
+=======
+                <div class="hero-right-button" data-aos="flip-up">
+>>>>>>> e3b87450fa8b20a0e3a048945e439d4aedebe2e4
                     <div class>
                         <button class="hero-see-course">See Courses</button>
                     </div>
@@ -75,7 +92,12 @@
                     </div>
                 </div>
 
+<<<<<<< HEAD
                 <div class="hero-text-data" data-aos="fade-up">
+=======
+                <div class="hero-text-data" data-aos="fade-up"
+     data-aos-duration="1000">
+>>>>>>> e3b87450fa8b20a0e3a048945e439d4aedebe2e4
                     <p>Recent engagement</p>
                     <div class="hero-right-data">
                         <div class="hero-right-data1">
