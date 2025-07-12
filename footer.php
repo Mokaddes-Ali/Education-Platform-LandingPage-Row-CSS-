@@ -1,7 +1,7 @@
 <footer class="footer">
     <div class="container">
         <!-- logo and social icon -->
-        <div class="footer-logo-section">
+        <div class="footer-logo-section" data-aos="fade-down">
             <div class="footer-logo">
                 <img class src="/assets/images/footer-logo.png" alt="company logo" />
             </div>
@@ -39,9 +39,9 @@
         <div class="footer-body-information">
             <!-- Company Quick Link -->
             <div class="quick-link">
-                <h1 class>Company</h1>
-                <div class="divider"></div>
-                <ul>
+                <h1 data-aos="fade-down">Company</h1>
+                <div class="divider" data-aos="zoom-in"></div>
+                <ul data-aos="zoom-out">
                     <li class><a href="#">About Us</a></li>
                     <li class><a href="#">Features</a></li>
                     <li class><a href="#">Our Pricing</a></li>
@@ -51,9 +51,9 @@
 
             <!-- Support -->
             <div class="company-support">
-                <h1 class>Support</h1>
-                <div class="divider"></div>
-                <ul>
+                <h1 data-aos="fade-down">Support</h1>
+                <div class="divider" data-aos="zoom-in"></div>
+                <ul data-aos="zoom-out">
                     <li class><a href="#">FAQ’s</a></li>
                     <li class><a href="#">Terms & Conditions</a></li>
                     <li class><a href="#">Privacy Policy</a></li>
@@ -63,9 +63,9 @@
 
             <!-- Address -->
             <div class="company-address">
-                <h1 class>Address</h1>
-                <div class="divider"></div>
-                <ul>
+                <h1 data-aos="fade-down">Address</h1>
+                <div class="divider" data-aos="zoom-in"></div>
+                <ul data-aos="zoom-out">
                     <li class="company-loaction">
                         <p><span class="contact-title">Location:</span> 27 Division St,
                             New York, NY 10002, USA</p>
@@ -83,7 +83,9 @@
     </div>
 
     <!-- Footer Divider and Copy Right Text -->
+     <div class="" data-aos="zoom-in-down">
     <div class="footer-divider"></div>
     <p class="footer-copy-right">Copyright ©2022 webdesign.gdn All rights
         reserved</p>
+    </div>
 </footer>

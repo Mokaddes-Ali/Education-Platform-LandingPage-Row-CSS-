@@ -7,18 +7,16 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 1170px;
-  /* background-color: aquamarine; */
+  width: 100%;
+  padding: 5px 60px;
+  max-width: 1170px;
 }
 
 
 /* Start Header and Hero CSS */
 .header-hero-section {
-  width: 1440px;
-}
-
-.header {
-  width: 1440px;
+  max-width: 1440px;
+  width: 100%;
 }
 
 .nav-content {
@@ -106,7 +104,8 @@ body {
 
 
 .hero {
-  width: 1440px;
+  max-width: 1440px;
+  width: 100%;
   padding-top: 58px;
   padding-bottom: 65px;
 }
@@ -379,7 +378,8 @@ body {
 /* Start Courses CSS */
 
 .courses {
-  width: 1440px;
+  max-width: 1440px;
+  width: 100%;
   padding: 200px 0px;
   height: 645px;
 }
@@ -448,6 +448,7 @@ body {
 
 .courses-button {
   padding-top: 40px;
+  display: flex;
 }
 
 .courses-button button {
@@ -649,38 +650,31 @@ body {
 
 /* Start Testimonial CSS */
 .testimonial {
-  width: 1440px;
+  max-width: 1440px;
+  width: 100%;
   background: #2E2100;
-  height: 380px;
-  margin-top: 9px;
+  padding: 94px 0;
+  overflow: hidden;
 }
 
-.testimonial .container {
-  padding: 94px 0px;
+.testimonial-slider .testimonial-slide {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 15px;
+  grid-template-columns: 160px auto;
   align-items: center;
-
-}
-
-.client-information {
-  width: 160px;
+  gap: 250px;
 }
 
 .client-information img {
-  margin-top: -16px;
   width: 72px;
   height: 72px;
   border-radius: 100%;
+  margin-bottom: 12px;
 }
 
 .client-information h1 {
-  margin-top: 12px;
   color: #F7F7F7;
   font-family: 'Sen', sans-serif;
   font-size: 24px;
-  font-style: normal;
   font-weight: 700;
   line-height: 34px;
 }
@@ -690,34 +684,31 @@ body {
   color: #BFBCB2;
   font-family: Poppins;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 26px;
 }
 
 .client-comments svg {
-  Width: 30px;
-  Height: 28px;
-
+  width: 30px;
+  height: 28px;
 }
 
 .client-comments h1 {
-  margin-left: 30px;
-  margin-top: -7px;
   color: #FFF;
-  font-family: Poppins;
-  font-size: 26px;
-  font-style: italic;
-  font-weight: 400;
-  line-height: 40px;
-
+font-family: 'Poppins', sans-serif;
+font-size: 26px;
+font-style: italic;
+font-weight: 400;
+line-height: 40px; /* 153.846% */
+  width: 740px;
 }
+
 
 
 /* Start feature CSS */
 .feature-section {
-  width: 1440px;
-  /* // */
+ max-width: 1440px;
+  width: 100%;
 }
 
 .feature-section .container {
@@ -798,7 +789,8 @@ p {
 
 /* Start CTA section CSS */
 .cta-section {
-  width: 1440px;
+  max-width: 1440px;
+  width: 100%;
   padding-top: 63px;
   padding-bottom: 195px;
 }
@@ -864,14 +856,14 @@ p {
 
 /* Start Blog Section CSS */
 .blog-section {
-  width: 1440px;
+  max-width: 1440px;
+  width: 100%;
   height: 878px;
   background-color: #FFFCF4;
 
 }
 
-.blog-heading,
-.blog-dots-button {
+.blog-heading {
   padding-top: 65px;
   display: flex;
   align-items: center;
@@ -879,6 +871,16 @@ p {
   flex-direction: column;
   text-align: center;
 }
+.blog-dots-button {
+  padding-top: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+  position: relative;
+}
+
 
 .blog-heading h1 {
   color: #130606;
@@ -911,7 +913,7 @@ p {
   width: 370px;
   Height: 467px;
   border-radius: 16px;
-  background: #FFF;
+ 
   box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease;
 }
@@ -951,7 +953,6 @@ p {
   margin-left: 20px;
   margin-top: 13px;
   border-radius: 0.5px;
-  background: #E2DFDA;
   width: 160px;
   height: 1px;
 }
@@ -993,6 +994,15 @@ p {
   border: 1px solid #FFF;
 }
 
+.blog-dot {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+
 /* End Blog Section CSS */
 
 /* Footer CSS Start */
@@ -1000,7 +1010,8 @@ p {
 .footer {
   background-color: #2E2100;
   height: 470px;
-  width: 1440px;
+  max-width: 1440px;
+  width: 100%;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -1139,3 +1150,8 @@ p {
 }
 
 /* End Footer CSS */
+
+.prev-btn[disabled], .next-btn[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}

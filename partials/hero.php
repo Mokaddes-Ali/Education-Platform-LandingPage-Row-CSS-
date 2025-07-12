@@ -3,9 +3,9 @@
     <div class="hero">
         <div class="container">
             <!-- hero left image and card -->
-            <div class="hero-left">
+            <div class="hero-left" data-aos="fade-up">
                 <img src="assets/images/heor-img.png" />
-                <div class="hero-card">
+                <div class="hero-card" data-aos="flip-left">
                     <div class="first-row">
                         <img class="hero-card-img" src="assets/images/hero-card1.png" alt="crad icon" />
                         <p>20 Courses</p>
@@ -29,7 +29,7 @@
             </div>
 
             <!-- Hero right text and button with data display -->
-            <div class="hero-right">
+            <div class="hero-right" data-aos="zoom-in">
                 <div class="hero-right-text">
                     <h1>Learn without limits and spread knowledge.</h1>
                     <p>Build new skills for that “this is my year” feeling with
@@ -38,7 +38,7 @@
                         companies.</p>
 
                 </div>
-                <div class="hero-right-button">
+                <div class="hero-right-button" data-aos="fade-down">
                     <div class>
                         <button class="hero-see-course">See Courses</button>
                     </div>
@@ -75,7 +75,7 @@
                     </div>
                 </div>
 
-                <div class="hero-text-data">
+                <div class="hero-text-data" data-aos="fade-up">
                     <p>Recent engagement</p>
                     <div class="hero-right-data">
                         <div class="hero-right-data1">
