@@ -1,17 +1,23 @@
-<section class="cta-section">
-  <div class="container">
-    <div class="cta-content">
-      <!-- CTA Text Content -->
-      <div class="cta-text" data-aos="fade-right">
-        <h2 class="cta-heading">Take the next step toward your personal and professional goals with Lesson.</h2>
-        <p class="cta-description">Take the next step toward. Join now to receive personalized and more recommendations from the full Coursera catalog.</p>
-        <button class="cta-button">Join Now</button>
-      </div>
+  <section class="cta-section">
+      <div class="container">
+          <!-- CTA Left -->
+          <div class="cta-left" data-aos="fade-down-left">
+              <h1>Take the next step toward your personal and professional goals
+                  with Lesson.</h1>
+              <p>Take the next step toward. Join now to receive
+                  personalized and more recommendations from the full Coursera
+                  catalog.</p>
+              <div class="cta-button">
+                  <button>Join Now</button>
+              </div>
 
-      <!-- CTA Image -->
-      <div class="cta-image" data-aos="flip-left">
-        <img src="/assets/images/cta-right.png" alt="Happy student learning online" loading="lazy" />
+          </div>
+
+          <!-- CTA Right -->
+          <div class="cta-right" data-aos="fade-down-right">
+              <img src="/assets/images/cta-right.png" alt="CTA Image" />
+
+          </div>
+
       </div>
-    </div>
-  </div>
-</section>
+  </section>
